@@ -2,7 +2,7 @@
 const Education = () => {
   return (
     <div>
-         <div className='bg-white mx-10 pt-7 '>
+         <div className='bg-white mx-10 py-7 '>
       <div className=' pb-8 border-b-2 border-gray-500'>
      
      
