@@ -10,7 +10,7 @@ const Presentation = () => {
    
    <div className='bg-gray-950 text-white pt-10  '>
      
-     <div className='ml-20 pr-20 '>
+     <div className='px-10 2xl:px-20 xl:px-20 lg:px-20 md:px-20 sm:px-20  '>
         <About/>
         <Contact/>
         <Skills/>
