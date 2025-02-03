@@ -1,7 +1,7 @@
  import { FaGraduationCap } from 'react-icons/fa6'
 const Education = () => {
   return (
-    <div>
+    
          <div className='bg-white mx-10 py-7 '>
       <div className=' pb-8 border-b-2 border-gray-500'>
      
@@ -20,7 +20,7 @@ const Education = () => {
          <p className='font-medium'>Secondary school to saint joseph institute ,Goma Drc and obtaing  diploma in account and management</p>
          </div>
        </div>
-     </div>
+     
     
   )
 }
