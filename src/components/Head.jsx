@@ -7,7 +7,7 @@ const Head = () => {
       const {isTranslate}=useContext(contTrans)
   return (
     <>
-    <div className="bg-[url('/public/images/code-comp.png')]  h-72   bg-no-repeat bg-center  bg-cover">
+    <div className="bg-[url('/public/images/code-comp.png')]   h-72   bg-no-repeat bg-center  bg-cover">
 
     <Translate/>
 
@@ -16,8 +16,8 @@ const Head = () => {
 
       <div className="flex  items-center relative   left-[50px]  2xl:left-[0px] xl:left-[0px] lg:-[0px] md:left-[0] sm: left-[0px]">
          
-         <div className="  w-32  h-32 2xl:w-40 2xl:h-40 xl:w-40 xl:h-40 lg:w-40 lg:h-40 md:w-40 md:h-20 sm:w-40 sm:h-40  absolute left-[-100px] z-10">
-             <img src="/public/images/imag3.png" alt="freddy" className="rounded-full w-full h-full   " />
+         <div className=" w-32  h-32 2xl:w-40 2xl:h-40 xl:w-40 xl:h-40 lg:w-40 lg:h-40 md:w-40 md:h-20 sm:w-40 sm:h-40  bg-gray-500 rounded-full absolute left-[-100px] z-10">
+             <img src="/public/images/imag3.png"  alt="freddy" className="rounded-full   w-full h-full   " />
          </div>
            
          <div>
