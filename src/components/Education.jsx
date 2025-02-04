@@ -1,5 +1,8 @@
- import { FaGraduationCap } from 'react-icons/fa6'
+ import { useContext } from 'react'
+import { FaGraduationCap } from 'react-icons/fa6'
+import { contTrans } from '../Context/transContent'
 const Education = () => {
+          const {isTranslate} =useContext(contTrans)
   return (
     
          <div className='bg-white mx-10 py-7 '>
@@ -15,9 +18,9 @@ const Education = () => {
      
      
          <h2 className='uppercase text-xl font-bold py-1'>2008-2014</h2>
-         <p className='font-medium'>primary school to KARISIMBI,Goma Drc</p>
+         <p className='font-medium'>{ isTranslate ?"Primary School to KARISIMBI,Goma Drc" : "Ecole primaire a Karisimbi , Goma RDC"}</p>
          <h2 className='uppercase text-xl font-bold py-1'>2014-2020</h2>
-         <p className='font-medium'>Secondary school to saint joseph institute ,Goma Drc and obtaing  diploma in account and management</p>
+         <p className='font-medium'>{ isTranslate ? "Secondary school to saint joseph institute ,Goma Drc and obtaing  diploma in account and management" : "Ecole secondaire a l'institut saint joseph , Goma RDC et obtention du diplome d'Etat en commercial wt gestion"}</p>
          </div>
        </div>
      

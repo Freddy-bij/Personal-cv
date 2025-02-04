@@ -1,7 +1,10 @@
+import { useContext } from "react"
 import Translate from "./Translate"
+import { contTrans } from "../Context/transContent"
 
 
 const Head = () => {
+      const {isTranslate}=useContext(contTrans)
   return (
     <>
     <div className="bg-[url('/public/images/code-comp.png')]  h-72   bg-no-repeat bg-center  bg-cover">
@@ -22,7 +25,7 @@ const Head = () => {
             <h1 className=" ml-4 2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-10 sm:ml-10 uppercase  text-2xl" >freddy bijanja</h1>
          </div>
          <div className="bg-white text-black p-2 w-48  2xl:w-64 xl:w-64  lg:w-64 md:w-64 sm:w-64 2xl:p-4 xl:p-4 lg:p-4 md:p-4 sm:p-4  rounded-r-full  ">
-             <p className=" ml-4 2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-10 sm:ml-10 capitalize text-sm font-bold ">software developper</p>
+             <p className=" ml-4 2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-10 sm:ml-10 capitalize text-sm font-bold ">{isTranslate ? "software developer" : "développeur de logiciels"}</p>
        </div>
        </div>
        
